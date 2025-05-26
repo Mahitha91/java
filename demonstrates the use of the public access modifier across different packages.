@@ -1,0 +1,16 @@
+package basic;
+import crt.Ex_public;
+public class Ex_public_child {
+	public void test()
+	{
+		Ex_public e=new Ex_public();
+		e.play();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ex_public_child cc=new Ex_public_child();
+		cc.test();
+	}
+
+}
