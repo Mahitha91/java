@@ -1,0 +1,13 @@
+package crt;
+import basic.Ex_Protected;
+public class Ex_protected_child extends Ex_Protected{
+public void test()
+{
+	play();
+}
+public static void main(String args[])
+{
+	Ex_protected_child c=new Ex_protected_child();
+	c.test();
+}
+}
