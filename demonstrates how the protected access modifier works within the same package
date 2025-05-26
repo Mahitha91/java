@@ -1,0 +1,28 @@
+package basic;
+public class Ex_Protected {
+
+	protected void play()
+	{
+		System.out.println("Playing");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Hiii h=new Hiii();
+		h.hii();
+		h.test();
+	}
+
+}
+class Hiii
+{
+	public void hii()
+	{
+		System.out.println("Inside Hii");
+	}
+	
+	void test()
+	{
+		Ex_Protected a=new Ex_Protected();
+		a.play();
+	}
+}
